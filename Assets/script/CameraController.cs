@@ -8,8 +8,7 @@ public class CameraController : MonoBehaviour {
 	public float minAngle = 135f;
 	public float maxAngle = 220f;
 
-	// Use this for initialization
-	void FixedUpdate() {
+	void Update() {
 		// Create a vector from the camera towards the player.
 		Vector3 relPlayerPosition = player.position - transform.position;
 
